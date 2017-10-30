@@ -1,16 +1,33 @@
-commit 76e1ea38124f2c119f9fa4f1e73e8fa4dac8b263
+commit 0d50744e642b43e1680ca8b01f2a4dc72f93675c
 Author: Tobias Oetiker <tobi@oetiker.ch>
-Date:   Mon Oct 30 11:25:45 2017 +0100
+Date:   Mon Oct 30 13:59:57 2017 +0100
 
+    * do not crash when processing invalid email addresses
+    * require POST to cancel
+
+commit a670fe42ce31cc534993ea974b7e06b2c6cc0c57
+Author: Tobias Oetiker <tobi@oetiker.ch>
+Date:   Mon Oct 30 12:29:24 2017 +0100
+
+    Production fixes (#1)
+    
+    production fixes
     uppercase currency
     flip plan nameing
     handle only integer amounts
+    better wording
 
-commit d3bc52930f8e601feda9d1791567713425ea482b
-Author: Tobias Oetiker <tobi@oetiker.ch>
-Date:   Mon Oct 30 09:54:47 2017 +0100
+commit f4281edf692841f44bb897fbfea1d683cb9b7b58
+Author: Dominik Hassler <hadfl@omniosce.org>
+Date:   Mon Oct 30 09:25:17 2017 +0100
 
-    production fixes
+    add OmniOSce logo to README
+
+commit a3c3457cb72c7a75686e665132fee9138e9a2c70
+Author: Dominik Hassler <hadfl@omniosce.org>
+Date:   Mon Oct 30 09:06:05 2017 +0100
+
+    ready for 0.2.0
 
 commit e6d054b3d1e47b682a4f49de911717e696b5eb33
 Author: Tobias Oetiker <tobi@oetiker.ch>
