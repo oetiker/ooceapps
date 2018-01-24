@@ -44,7 +44,9 @@ patrons@omniosce.org
 \vspace{2ex}
 \begin{minipage}[b]{0.6\textwidth}
 \flushleft
-OmniOS CE Prim Enterprise Support Package\footnotemark including weekly security updates,
+\textbf{OmniOS CE Prime Enterprise Support Package\footnotemark}
+
+The package includes weekly security updates,
    LTS releases with one year migration overlap and direct developer
     access for second level support.
 \end{minipage}%
@@ -62,7 +64,7 @@ Support comes with a best
 \vspace{\stretch{1}}
 Please send your payment to:
 
-OmniOS Community Edition\newline
+Verein OmniOS Community Edition\newline
 IBAN CH22 0900 0000 6188 9767 7, BIC POFICHBEXX\newline
 Bank: PostFinance Ltd, Mingerstrasse 20, 3030 Bern, Switzerland
 
