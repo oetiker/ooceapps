@@ -44,7 +44,10 @@ patrons@omniosce.org
 \vspace{2ex}
 \begin{minipage}[b]{0.6\textwidth}
 \flushleft
-\textbf{OmniOS CE Prime Enterprise Support Package\footnotemark}
+\textbf{OmniOS CE Prime Enterprise Support Package\footnotemark{} 
+	<%= strftime("%Y.%m" , localtime) %> --
+	<%= strftime("%Y.%m" , localtime(time+3600*24*360) %>
+}
 
 The package includes weekly security updates,
    LTS releases with one year migration overlap and direct developer
