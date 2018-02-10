@@ -25,7 +25,7 @@ form</a> on the OmniOS website.</p>
 % if ($ref) {
 <li>Your reference: <%== $ref %></li>
 %}
-<li>Amount: <%== $currency %> <%= $amount +100 %> p.a. (*)</li>
+<li>Amount: <%== $currency %> <%= $amount +50 %> p.a. (*)</li>
 <li>Company: <%== $company %></li>
 <li>Name: <%== $name %></li>
 <li>Address: <%== join ', ', split /[\r\n]+/, $address %></li>
@@ -43,6 +43,6 @@ OmniOS Community Edition Association<br/>
 Aarweg 17, 4600 Olten, Switzerland<br/>
 patrons@omniosce.org</address>
 
-<small>*) We add 100 <%= $currency %> to the quoted price for PO based purchases as they tend to involve extra paperwork from our side.</small>
+<small>*) We add 50 <%= $currency %> to the quoted price for PO based purchases as they tend to involve extra paperwork from our side.</small>
 </body>
 </html>
